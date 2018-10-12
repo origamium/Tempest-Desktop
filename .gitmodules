@@ -1,0 +1,9 @@
+[submodule "src/lib/core"]
+	path = src/lib/core
+	url = https://github.com/tsuruclient/core.git
+[submodule "src/lib/ui"]
+	path = src/lib/ui
+	url = https://github.com/tsuruclient/ui.git
+[submodule "src/lib/data"]
+	path = src/lib/data
+	url = https://github.com/tsuruclient/data.git

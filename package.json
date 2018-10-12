@@ -9,6 +9,8 @@
     "eject": "react-scripts-ts eject"
   },
   "devDependencies": {
+    "@material-ui/core": "^3.2.0",
+    "@material-ui/icons": "^3.0.1",
     "@types/jest": "^23.3.2",
     "@types/node": "^10.9.4",
     "@types/react": "^16.4.14",
@@ -22,6 +24,7 @@
     "electron": "^3.0.2",
     "react": "^16.5.2",
     "react-dom": "^16.4.2",
+    "react-i18next": "^8.0.7",
     "react-redux": "^5.0.7",
     "react-scripts-ts": "^3.1.0",
     "redux": "^4.0.0",
