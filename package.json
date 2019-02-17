@@ -22,6 +22,7 @@
     "del": "^3.0.0",
     "devtron": "^1.4.0",
     "electron": "^3.0.10",
+    "electron-builder": "^20.38.5",
     "react": "^16.5.2",
     "react-dom": "^16.4.2",
     "react-i18next": "^8.0.7",
