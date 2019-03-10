@@ -7,3 +7,6 @@
 [submodule "src/lib/data"]
 	path = src/lib/data
 	url = https://github.com/tsuruclient/data.git
+[submodule "src/lib/events"]
+	path = src/lib/events
+	url = https://github.com/tsuruclient/events.git
