@@ -9,6 +9,12 @@
     "allowJs": true,
     "jsx": "react",
     "moduleResolution": "node",
+    "paths": {
+      "@core": ["src/lib/core"],
+      "@ui": ["src/lib/ui"],
+      "@data": ["src/lib/data"],
+      "@events": ["src/lib/events"]
+    },
     "rootDir": "src",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
