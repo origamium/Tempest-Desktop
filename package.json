@@ -5,11 +5,11 @@
   "main": "src/main/electron-starter.js",
   "homepage": "./",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm-run-all --parallel electron:dev start-react",
+    "start-react": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "electron:dev": "electron .",
-    "dev": "npm-run-all --parallel electron:dev start"
+    "electron:dev": "electron ."
   },
   "devDependencies": {
     "@material-ui/core": "^3.9.2",
@@ -24,7 +24,6 @@
     "electron": "^4.1.1",
     "electron-builder": "^20.39.0",
     "electron-devtools-installer": "^2.2.4",
-    "eslint": "^5.15.3",
     "immutable": "^4.0.0-rc.12",
     "normalizr": "^3.3.0",
     "npm-run-all": "^4.1.5",
@@ -32,6 +31,7 @@
     "react-dom": "^16.8.6",
     "react-i18next": "^10.6.0",
     "react-redux": "^6.0.1",
+    "react-scripts": "^2.1.8",
     "react-virtualized": "^9.21.0",
     "redux": "^4.0.0",
     "redux-actions": "^2.6.5",
@@ -43,11 +43,16 @@
     "typescript": "^3.3.4000",
     "typescript-fsa": "^3.0.0-beta-2",
     "typescript-fsa-reducers": "^1.2.0",
-    "typescript-fsa-redux-saga": "^2.0.0-beta.1",
-    "webpack": "^4.29.6"
+    "typescript-fsa-redux-saga": "^2.0.0-beta.1"
   },
   "dependencies": {
     "electron-json-storage": "^4.1.6",
     "es6-promisify": "^6.0.0"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
